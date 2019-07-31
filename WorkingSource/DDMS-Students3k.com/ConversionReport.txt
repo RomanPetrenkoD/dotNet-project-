@@ -1,0 +1,371 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file EDMSNET.csproj at March 28 2002, 17:22:13.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute AutoEventWireup from file Admin.aspx.
+Removed attribute Codebehind from file Admin.aspx.
+Removed the id attribute from the <form> tag in file Admin.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Admin.aspx.cs (Line 21).
+Removed attribute AutoEventWireup from file Default.aspx.
+Removed attribute Codebehind from file Default.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Default.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file Error.aspx.
+Removed attribute Codebehind from file Error.aspx.
+Removed the id attribute from the <form> tag in file Error.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Error.aspx.cs (Line 20).
+Removed attribute Codebehind from file Global.asax.
+Removed attribute AutoEventWireup from file login.aspx.
+Removed attribute Codebehind from file login.aspx.
+Removed the id attribute from the <form> tag in file login.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file login.aspx.cs (Line 26).
+Warning: Access level of 'bnRegister_Click' changed to 'protected' in file login.aspx.cs (Line 62).
+Warning: Access level of 'bnLogin_Click' changed to 'protected' in file login.aspx.cs (Line 67).
+Removed attribute AutoEventWireup from file administration\admin.aspx.
+Removed attribute Codebehind from file administration\admin.aspx.
+Removed the id attribute from the <form> tag in file administration\admin.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\admin.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\admin.aspx.cs (Line 16).
+Removed attribute AutoEventWireup from file administration\navbar.aspx.
+Removed attribute Codebehind from file administration\navbar.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\NavBar.aspx.cs (Line 49).
+Warning: Access level of 'bnLogout_Click' changed to 'protected' in file administration\NavBar.aspx.cs (Line 183).
+Removed attribute AutoEventWireup from file administration\admacnt\admacntcreate.aspx.
+Removed attribute Codebehind from file administration\admacnt\admacntcreate.aspx.
+Removed the id attribute from the <form> tag in file administration\admacnt\admacntcreate.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\admacnt\admacntcreate.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\admacnt\AdmAcntCreate.aspx.cs (Line 47).
+Removed attribute AutoEventWireup from file administration\admacnt\admacntlist.aspx.
+Removed attribute Codebehind from file administration\admacnt\admacntlist.aspx.
+Removed the id attribute from the <form> tag in file administration\admacnt\admacntlist.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\admacnt\admacntlist.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\admacnt\AdmAcntList.aspx.cs (Line 39).
+Removed attribute AutoEventWireup from file administration\admacnt\admacntremove.aspx.
+Removed attribute Codebehind from file administration\admacnt\admacntremove.aspx.
+Removed the id attribute from the <form> tag in file administration\admacnt\admacntremove.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\admacnt\admacntremove.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\admacnt\admAcntRemove.aspx.cs (Line 28).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\admacnt\admAcntRemove.aspx.cs (Line 66).
+Removed attribute AutoEventWireup from file administration\admacnt\admacntupdate.aspx.
+Removed attribute Codebehind from file administration\admacnt\admacntupdate.aspx.
+Removed the id attribute from the <form> tag in file administration\admacnt\admacntupdate.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\admacnt\admacntupdate.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\admacnt\AdmAcntUpdate.aspx.cs (Line 27).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\admacnt\AdmAcntUpdate.aspx.cs (Line 137).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\admacnt\AdmAcntUpdate.aspx.cs (Line 166).
+Removed attribute AutoEventWireup from file administration\admacnt\admacntview.aspx.
+Removed attribute Codebehind from file administration\admacnt\admacntview.aspx.
+Removed the id attribute from the <form> tag in file administration\admacnt\admacntview.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\admacnt\admacntview.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\admacnt\AdmAcntView.aspx.cs (Line 26).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\admacnt\AdmAcntView.aspx.cs (Line 80).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\admacnt\AdmAcntView.aspx.cs (Line 85).
+Removed attribute AutoEventWireup from file administration\approve\appapprove.aspx.
+Removed attribute Codebehind from file administration\approve\appapprove.aspx.
+Removed the id attribute from the <form> tag in file administration\approve\appapprove.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\approve\appapprove.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\approve\AppApprove.aspx.cs (Line 24).
+Warning: Access level of 'bnApprove_Click' changed to 'protected' in file administration\approve\AppApprove.aspx.cs (Line 59).
+Removed attribute AutoEventWireup from file administration\approve\appdiscont.aspx.
+Removed attribute Codebehind from file administration\approve\appdiscont.aspx.
+Removed the id attribute from the <form> tag in file administration\approve\appdiscont.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\approve\appdiscont.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\approve\AppDiscont.aspx.cs (Line 24).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\approve\AppDiscont.aspx.cs (Line 62).
+Removed attribute AutoEventWireup from file administration\approve\applist.aspx.
+Removed attribute Codebehind from file administration\approve\applist.aspx.
+Removed the id attribute from the <form> tag in file administration\approve\applist.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\approve\applist.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\approve\AppList.aspx.cs (Line 71).
+Removed attribute AutoEventWireup from file administration\approve\appreturn.aspx.
+Removed attribute Codebehind from file administration\approve\appreturn.aspx.
+Removed the id attribute from the <form> tag in file administration\approve\appreturn.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\approve\appreturn.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\approve\AppReturn.aspx.cs (Line 24).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\approve\AppReturn.aspx.cs (Line 59).
+Removed attribute AutoEventWireup from file administration\approve\appview.aspx.
+Removed attribute Codebehind from file administration\approve\appview.aspx.
+Removed the id attribute from the <form> tag in file administration\approve\appview.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\approve\appview.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\approve\AppView.aspx.cs (Line 69).
+Warning: Access level of 'bnBack_Click' changed to 'protected' in file administration\approve\AppView.aspx.cs (Line 106).
+Warning: Access level of 'bnApprove_Click' changed to 'protected' in file administration\approve\AppView.aspx.cs (Line 111).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\approve\AppView.aspx.cs (Line 116).
+Warning: Access level of 'bnCancel_Click' changed to 'protected' in file administration\approve\AppView.aspx.cs (Line 121).
+Removed attribute AutoEventWireup from file administration\aut\autcreate.aspx.
+Removed attribute Codebehind from file administration\aut\autcreate.aspx.
+Removed the id attribute from the <form> tag in file administration\aut\autcreate.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\aut\autcreate.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\aut\AutCreate.aspx.cs (Line 23).
+Removed attribute AutoEventWireup from file administration\aut\autlist.aspx.
+Removed attribute Codebehind from file administration\aut\autlist.aspx.
+Removed the id attribute from the <form> tag in file administration\aut\autlist.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\aut\autlist.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\aut\AutList.aspx.cs (Line 72).
+Removed attribute AutoEventWireup from file administration\aut\autremove.aspx.
+Removed attribute Codebehind from file administration\aut\autremove.aspx.
+Removed the id attribute from the <form> tag in file administration\aut\autremove.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\aut\autremove.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\aut\AutRemove.aspx.cs (Line 27).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\aut\AutRemove.aspx.cs (Line 62).
+Removed attribute AutoEventWireup from file administration\aut\autsubmit.aspx.
+Removed attribute Codebehind from file administration\aut\autsubmit.aspx.
+Removed the id attribute from the <form> tag in file administration\aut\autsubmit.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\aut\autsubmit.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\aut\AutSubmit.aspx.cs (Line 27).
+Warning: Access level of 'bnSubmit_Click' changed to 'protected' in file administration\aut\AutSubmit.aspx.cs (Line 62).
+Removed attribute AutoEventWireup from file administration\aut\autupdate.aspx.
+Removed attribute Codebehind from file administration\aut\autupdate.aspx.
+Removed the id attribute from the <form> tag in file administration\aut\autupdate.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\aut\autupdate.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\aut\AutUpdate.aspx.cs (Line 53).
+Warning: Access level of 'bnInsert_Click' changed to 'protected' in file administration\aut\AutUpdate.aspx.cs (Line 88).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\aut\AutUpdate.aspx.cs (Line 117).
+Warning: Access level of 'bnRestore_Click' changed to 'protected' in file administration\aut\AutUpdate.aspx.cs (Line 146).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\aut\AutUpdate.aspx.cs (Line 151).
+Removed attribute AutoEventWireup from file administration\aut\autview.aspx.
+Removed attribute Codebehind from file administration\aut\autview.aspx.
+Removed the id attribute from the <form> tag in file administration\aut\autview.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\aut\autview.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\aut\AutView.aspx.cs (Line 72).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\aut\AutView.aspx.cs (Line 109).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\aut\AutView.aspx.cs (Line 114).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\aut\AutView.aspx.cs (Line 119).
+Removed attribute AutoEventWireup from file administration\deploy\deployarchive.aspx.
+Removed attribute Codebehind from file administration\deploy\deployarchive.aspx.
+Removed the id attribute from the <form> tag in file administration\deploy\deployarchive.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\deploy\deployarchive.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\deploy\DeployArchive.aspx.cs (Line 25).
+Warning: Access level of 'bnArchive_Click' changed to 'protected' in file administration\deploy\DeployArchive.aspx.cs (Line 66).
+Removed attribute AutoEventWireup from file administration\deploy\deploydeploy.aspx.
+Removed attribute Codebehind from file administration\deploy\deploydeploy.aspx.
+Removed the id attribute from the <form> tag in file administration\deploy\deploydeploy.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\deploy\deploydeploy.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\deploy\DeployDeploy.aspx.cs (Line 27).
+Warning: Access level of 'bnDeploy_Click' changed to 'protected' in file administration\deploy\DeployDeploy.aspx.cs (Line 77).
+Removed attribute AutoEventWireup from file administration\deploy\deploylist.aspx.
+Removed attribute Codebehind from file administration\deploy\deploylist.aspx.
+Removed the id attribute from the <form> tag in file administration\deploy\deploylist.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\deploy\deploylist.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\deploy\DeployList.aspx.cs (Line 40).
+Warning: Access level of 'bnUpdtRanks_Click' changed to 'protected' in file administration\deploy\DeployList.aspx.cs (Line 209).
+Warning: Access level of 'ddlZones_SelectedIndexChanged' changed to 'protected' in file administration\deploy\DeployList.aspx.cs (Line 268).
+Removed attribute AutoEventWireup from file administration\deploy\deployreturn.aspx.
+Removed attribute Codebehind from file administration\deploy\deployreturn.aspx.
+Removed the id attribute from the <form> tag in file administration\deploy\deployreturn.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\deploy\deployreturn.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\deploy\DeployReturn.aspx.cs (Line 25).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\deploy\DeployReturn.aspx.cs (Line 66).
+Removed attribute AutoEventWireup from file administration\deploy\deployview.aspx.
+Removed attribute Codebehind from file administration\deploy\deployview.aspx.
+Removed the id attribute from the <form> tag in file administration\deploy\deployview.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\deploy\deployview.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\deploy\DeployView.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file administration\edit\ededit.aspx.
+Removed attribute Codebehind from file administration\edit\ededit.aspx.
+Removed the id attribute from the <form> tag in file administration\edit\ededit.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\edit\ededit.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\edit\EdEdit.aspx.cs (Line 71).
+Warning: Access level of 'bnInsert_Click' changed to 'protected' in file administration\edit\EdEdit.aspx.cs (Line 109).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\edit\EdEdit.aspx.cs (Line 138).
+Warning: Access level of 'bnRestore_Click' changed to 'protected' in file administration\edit\EdEdit.aspx.cs (Line 167).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\edit\EdEdit.aspx.cs (Line 172).
+Removed attribute AutoEventWireup from file administration\edit\edlist.aspx.
+Removed attribute Codebehind from file administration\edit\edlist.aspx.
+Removed the id attribute from the <form> tag in file administration\edit\edlist.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\edit\edlist.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\edit\EdList.aspx.cs (Line 78).
+Removed attribute AutoEventWireup from file administration\edit\edreturn.aspx.
+Removed attribute Codebehind from file administration\edit\edreturn.aspx.
+Removed the id attribute from the <form> tag in file administration\edit\edreturn.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\edit\edreturn.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\edit\EdReturn.aspx.cs (Line 24).
+Warning: Access level of 'bnSubmit_Click' changed to 'protected' in file administration\edit\EdReturn.aspx.cs (Line 59).
+Removed attribute AutoEventWireup from file administration\edit\edsubmit.aspx.
+Removed attribute Codebehind from file administration\edit\edsubmit.aspx.
+Removed the id attribute from the <form> tag in file administration\edit\edsubmit.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\edit\edsubmit.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\edit\EdSubmit.aspx.cs (Line 24).
+Warning: Access level of 'bnSubmit_Click' changed to 'protected' in file administration\edit\EdSubmit.aspx.cs (Line 59).
+Removed attribute AutoEventWireup from file administration\edit\edview.aspx.
+Removed attribute Codebehind from file administration\edit\edview.aspx.
+Removed the id attribute from the <form> tag in file administration\edit\edview.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\edit\edview.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\edit\EdView.aspx.cs (Line 69).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\edit\EdView.aspx.cs (Line 106).
+Warning: Access level of 'bnEdit_Click' changed to 'protected' in file administration\edit\EdView.aspx.cs (Line 116).
+Removed attribute AutoEventWireup from file administration\edit\edwithdraw.aspx.
+Removed attribute Codebehind from file administration\edit\edwithdraw.aspx.
+Removed the id attribute from the <form> tag in file administration\edit\edwithdraw.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\edit\edwithdraw.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\edit\EdWithdraw.aspx.cs (Line 24).
+Warning: Access level of 'bnWithdraw_Click' changed to 'protected' in file administration\edit\EdWithdraw.aspx.cs (Line 59).
+Removed attribute AutoEventWireup from file administration\note\notecreate.aspx.
+Removed attribute Codebehind from file administration\note\notecreate.aspx.
+Removed the id attribute from the <form> tag in file administration\note\notecreate.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\note\notecreate.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\note\NoteCreate.aspx.cs (Line 26).
+Removed attribute AutoEventWireup from file administration\note\notelist.aspx.
+Removed attribute Codebehind from file administration\note\notelist.aspx.
+Removed the id attribute from the <form> tag in file administration\note\notelist.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\note\notelist.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\note\NoteList.aspx.cs (Line 50).
+Warning: Access level of 'bnCreate_Click' changed to 'protected' in file administration\note\NoteList.aspx.cs (Line 141).
+Warning: Access level of 'bnReturn_Click' changed to 'protected' in file administration\note\NoteList.aspx.cs (Line 146).
+Removed attribute AutoEventWireup from file administration\note\noteremove.aspx.
+Removed attribute Codebehind from file administration\note\noteremove.aspx.
+Removed the id attribute from the <form> tag in file administration\note\noteremove.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\note\noteremove.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\note\NoteRemove.aspx.cs (Line 27).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\note\NoteRemove.aspx.cs (Line 65).
+Removed attribute AutoEventWireup from file administration\note\noteupdate.aspx.
+Removed attribute Codebehind from file administration\note\noteupdate.aspx.
+Removed the id attribute from the <form> tag in file administration\note\noteupdate.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\note\noteupdate.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\note\NoteUpdate.aspx.cs (Line 40).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\note\NoteUpdate.aspx.cs (Line 76).
+Warning: Access level of 'bnRestore_Click' changed to 'protected' in file administration\note\NoteUpdate.aspx.cs (Line 94).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\note\NoteUpdate.aspx.cs (Line 99).
+Removed attribute AutoEventWireup from file administration\note\noteview.aspx.
+Removed attribute Codebehind from file administration\note\noteview.aspx.
+Removed the id attribute from the <form> tag in file administration\note\noteview.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\note\noteview.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\note\NoteView.aspx.cs (Line 26).
+Warning: Access level of 'bnUpdate_Click' changed to 'protected' in file administration\note\NoteView.aspx.cs (Line 79).
+Warning: Access level of 'bnRemove_Click' changed to 'protected' in file administration\note\NoteView.aspx.cs (Line 84).
+Removed attribute AutoEventWireup from file administration\util\admshutdown.aspx.
+Removed attribute Codebehind from file administration\util\admshutdown.aspx.
+Removed the id attribute from the <form> tag in file administration\util\admshutdown.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'administration\util\admshutdown.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file administration\util\AdmShutdown.aspx.cs (Line 23).
+Warning: Access level of 'bnStartStop_Click' changed to 'protected' in file administration\util\AdmShutdown.aspx.cs (Line 58).
+Removed attribute AutoEventWireup from file cda\contentpg.aspx.
+Removed attribute Codebehind from file cda\contentpg.aspx.
+Removed the id attribute from the <form> tag in file cda\contentpg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\contentpg.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\ContentPg.aspx.cs (Line 30).
+'Reference' tag with reference to '~/cda/headlineteaser.ascx' added to file cda\contentpg.aspx.
+Removed attribute TargetSchema from file cda\footer.ascx.
+Removed attribute Codebehind from file cda\footer.ascx.
+Removed attribute AutoEventWireup from file cda\footer.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\Footer.ascx.cs (Line 24).
+Removed attribute TargetSchema from file cda\header.ascx.
+Removed attribute Codebehind from file cda\header.ascx.
+Removed attribute AutoEventWireup from file cda\header.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\Header.ascx.cs (Line 27).
+Removed attribute TargetSchema from file cda\headlineteaser.ascx.
+Removed attribute Codebehind from file cda\headlineteaser.ascx.
+Removed attribute AutoEventWireup from file cda\headlineteaser.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\HeadlineTeaser.ascx.cs (Line 51).
+Removed attribute AutoEventWireup from file cda\homepg.aspx.
+Removed attribute Codebehind from file cda\homepg.aspx.
+Removed the id attribute from the <form> tag in file cda\homepg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\homepg.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\HomePg.aspx.cs (Line 17).
+Removed attribute TargetSchema from file cda\login.ascx.
+Removed attribute Codebehind from file cda\login.ascx.
+Removed attribute AutoEventWireup from file cda\login.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\Login.ascx.cs (Line 17).
+Removed attribute TargetSchema from file cda\logout.ascx.
+Removed attribute Codebehind from file cda\logout.ascx.
+Removed attribute AutoEventWireup from file cda\logout.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\Logout.ascx.cs (Line 14).
+Removed attribute TargetSchema from file cda\navbar.ascx.
+Removed attribute Codebehind from file cda\navbar.ascx.
+Removed attribute AutoEventWireup from file cda\navbar.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\NavBar.ascx.cs (Line 39).
+Removed attribute AutoEventWireup from file cda\register.aspx.
+Removed attribute Codebehind from file cda\register.aspx.
+Removed the id attribute from the <form> tag in file cda\register.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\register.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\Register.aspx.cs (Line 21).
+Removed attribute AutoEventWireup from file cda\storypg.aspx.
+Removed attribute Codebehind from file cda\storypg.aspx.
+Removed the id attribute from the <form> tag in file cda\storypg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\storypg.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\StoryPg.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file cda\zonepg.aspx.
+Removed attribute Codebehind from file cda\zonepg.aspx.
+Removed the id attribute from the <form> tag in file cda\zonepg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\zonepg.aspx'.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\ZonePg.aspx.cs (Line 20).
+'Reference' tag with reference to '~/cda/headlineteaser.ascx' added to file cda\zonepg.aspx.
+Removed attribute AutoEventWireup from file cda\protected\contentpg.aspx.
+Removed attribute Codebehind from file cda\protected\contentpg.aspx.
+Removed the id attribute from the <form> tag in file cda\protected\contentpg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\protected\contentpg.aspx'.
+'Reference' tag with reference to '~/cda/contentpg.aspx' added to file cda\protected\contentpg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\protected\ContentPg.aspx.cs (Line 22).
+'Reference' tag with reference to '~/cda/headlineteaser.ascx' added to file cda\protected\contentpg.aspx.
+Removed attribute AutoEventWireup from file cda\protected\myhomepg.aspx.
+Removed attribute Codebehind from file cda\protected\myhomepg.aspx.
+Removed the id attribute from the <form> tag in file cda\protected\myhomepg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\protected\myhomepg.aspx'.
+'Reference' tag with reference to '~/cda/protected/zonecard.ascx' added to file cda\protected\myhomepg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\protected\myHomePg.aspx.cs (Line 22).
+Removed attribute AutoEventWireup from file cda\protected\storypg.aspx.
+Removed attribute Codebehind from file cda\protected\storypg.aspx.
+Removed the id attribute from the <form> tag in file cda\protected\storypg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\protected\storypg.aspx'.
+'Reference' tag with reference to '~/cda/storypg.aspx' added to file cda\protected\storypg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\protected\StoryPg.aspx.cs (Line 20).
+Removed attribute TargetSchema from file cda\protected\zonecard.ascx.
+Removed attribute Codebehind from file cda\protected\zonecard.ascx.
+Removed attribute AutoEventWireup from file cda\protected\zonecard.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\protected\ZoneCard.ascx.cs (Line 109).
+Warning: Access level of 'ddlZones_SelectedIndexChanged' changed to 'protected' in file cda\protected\ZoneCard.ascx.cs (Line 220).
+Removed attribute AutoEventWireup from file cda\protected\zonepg.aspx.
+Removed attribute Codebehind from file cda\protected\zonepg.aspx.
+Removed the id attribute from the <form> tag in file cda\protected\zonepg.aspx.
+Updated the attribute 'CodeFileBaseClass' with value 'edmsNET.Common.AuthorizedPage' in the file 'cda\protected\zonepg.aspx'.
+'Reference' tag with reference to '~/cda/zonepg.aspx' added to file cda\protected\zonepg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file cda\protected\ZonePg.aspx.cs (Line 20).
+'Reference' tag with reference to '~/cda/headlineteaser.ascx' added to file cda\protected\zonepg.aspx.
+Removed attribute AutoEventWireup from file setup\setup.aspx.
+Removed attribute Codebehind from file setup\setup.aspx.
+Removed the id attribute from the <form> tag in file setup\setup.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file setup\setup.aspx.cs (Line 17).
+Warning: Access level of 'bnContinue_Click' changed to 'protected' in file setup\setup.aspx.cs (Line 41).
+Removed attribute AutoEventWireup from file setup\setup2.aspx.
+Removed attribute Codebehind from file setup\setup2.aspx.
+Removed the id attribute from the <form> tag in file setup\setup2.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file setup\setup2.aspx.cs (Line 163).
+Warning: Access level of 'bnDBConnect_Click' changed to 'protected' in file setup\setup2.aspx.cs (Line 241).
+Removed attribute AutoEventWireup from file setup\setup3.aspx.
+Removed attribute Codebehind from file setup\setup3.aspx.
+Removed the id attribute from the <form> tag in file setup\setup3.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file setup\setup3.aspx.cs (Line 58).
+Removed attribute AutoEventWireup from file setup\setup4.aspx.
+Removed attribute Codebehind from file setup\setup4.aspx.
+Removed the id attribute from the <form> tag in file setup\setup4.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file setup\setup4.aspx.cs (Line 22).
+Warning: Access level of 'btnLogin_Click' changed to 'protected' in file setup\setup4.aspx.cs (Line 77).
+Added folder App_Code\Common.
+Moved file common\statuscodes.cs to the App_Code\Common\ directory.
+Added folder App_Code\DataAccess.
+Moved file dataaccess\domain.cs to the App_Code\DataAccess\ directory.
+Moved file dataaccess\contentrank.cs to the App_Code\DataAccess\ directory.
+Moved file dataaccess\accountproperty.cs to the App_Code\DataAccess\ directory.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file dataaccess\zone.cs to the App_Code\DataAccess\ directory.
+Moved file dataaccess\contentnotes.cs to the App_Code\DataAccess\ directory.
+Moved file dataaccess\accountroles.cs to the App_Code\DataAccess\ directory.
+Moved file common\authorizedpage.cs to the App_Code\Common\ directory.
+Moved file common\appenv.cs to the App_Code\Common\ directory.
+Moved file dataaccess\content.cs to the App_Code\DataAccess\ directory.
+Moved file dataaccess\account.cs to the App_Code\DataAccess\ directory.
+Moved file common\emailalert.cs to the App_Code\Common\ directory.
+Moved file dataaccess\distribution.cs to the App_Code\DataAccess\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\EDMSNET.dll.
+Removed file Bin\EDMSNET.pdb.
+Removed file EDMSNET.csproj.
+Removed file EDMSNET.csproj.webinfo.
+Project EDMSNET.csproj has been converted successfully at March 28 2002, 17:22:23.
